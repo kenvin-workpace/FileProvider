@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- content://${applicationId}/app_internal_files/ -->
+    <!-- file:///data/user/0/${applicationId}/files/example/ -->
+    <files-path
+        name="app_internal_files"
+        path="example"/>
+
+    <!-- content://${applicationId}/app_internal_cache/ -->
+    <!-- file:///data/user/0/${applicationId}/cache/example/ -->
+    <cache-path
+        name="app_internal_cache"
+        path="example"/>
+
+    <!-- content://${applicationId}/app_external_files/ -->
+    <!-- file:///storage/emulated/0/Android/data/${applicationId}/files/example/ -->
+    <external-files-path
+        name="app_external_files"
+        path="example"/>
+
+    <!-- content://${applicationId}/app_external_cache/ -->
+    <!-- file:///storage/emulated/0/Android/data/${applicationId}/cache/example/ -->
+    <external-cache-path
+        name="app_external_cache"
+        path="example"/>
+
+    <!-- content://${applicationId}/external_root/ -->
+    <!-- file:///storage/emulated/0/example/ -->
+    <external-path
+        name="external_root"
+        path="example"/>
+
+    <!-- content://${applicationId}/system_root/ -->
+    <!-- file:///example/ -->
+    <root-path
+        name="system_root"
+        path="example"/>
+
+
+    <external-cache-path
+        name="images"
+        path="images"/>
+</paths>
